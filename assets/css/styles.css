@@ -396,6 +396,13 @@ hr {
   padding-right: 15px;
   padding-left: 15px;
 }
+.hiretext{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+}
 
 .col {
   flex-basis: 0;
@@ -1303,7 +1310,8 @@ h6 {
 }
 
 .section-title {
-  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 992px) {
